@@ -1,7 +1,8 @@
 
 # Redbus Data Scraping with Selenium & Dynamic Filtering using Streamlit
 
-This project aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. By utilizing Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and providing powerful tools for data-driven decision-making, this project can significantly improve operational efficiency and strategic planning in the transportation industry.
+This project aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. Through the use of Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and offering powerful data-driven tools, the project enables improved operational efficiency and strategic decision-making in the transportation sector.
+
 ## Table of content
 
 - [Usage](#usage)
@@ -10,27 +11,32 @@ This project aims to revolutionize the transportation industry by providing a co
 - [Installation](#Installation)
 - [Result](#Result)
 - [Reference](#Reference)
+
 ## Usage:
 
 The solution can be applied to various business scenarios including:
-- **Travel Aggregators**: Providing real-time bus schedules and seat availability for customers.
+
+- **Travel Aggregators**: Offering real-time bus schedules and seat availability for customers.
 - **Market Analysis**: Analyzing travel patterns and preferences for market research.
-- **Customer Service**: Enhancing user experience by offering customized travel options based on data insights.
+- **Customer Service**: Enhancing user experience with customized travel options based on data insights.
 - **Competitor Analysis**: Comparing pricing and service levels with competitors.
+
 ## Approach
 
-**1. Data Scraping**:
-Use Selenium to automate the extraction of Redbus data including routes, schedules, prices, and seat availability.
+1. **Data Scraping**  
+   Automate the extraction of Redbus data, including routes, schedules, prices, and seat availability using Selenium.
 
-**2. Data Storage**:
-Store the scraped data in a SQL database.
+2. **Data Storage**  
+   Store the scraped data in a SQL database for further processing.
 
-**3. Streamlit Application**:
-   - Develop a Streamlit application to display and filter the scraped data.
-   - Implement various filters such as bus type, route, price range, star rating, and availability.
-**4. Data Analysis/Filtering using Streamlit**:
+3. **Streamlit Application**  
+   - Develop an interactive Streamlit application to display and filter the scraped data.
+   - Implement filters for bus type, route, price range, star rating, and seat availability.
+
+4. **Data Analysis**  
    - Use SQL queries to retrieve and filter data based on user inputs.
-   - Use Streamlit to allow users to interact with and filter the data through the application.
+   - Allow users to interact with and filter data through the Streamlit application.
+
 ## Technolgy used
 Before you begin, ensure you have the following installed:
 
@@ -39,6 +45,7 @@ Before you begin, ensure you have the following installed:
 - **Selenium**: A powerful tool for web automation that allows you to programmatically control a web browser. It's essential for automating web scraping tasks.
 - **SQLite3**: SQLite3 is a lightweight, self-contained SQL database engine known for its simplicity and portability.
 - **Streamlit**: A tool to display and filter the scrapped data.
+
 ## Installation:
 
 ## I. Selenium:
@@ -55,6 +62,7 @@ pip install selenium
 
 ```
  ### Selenium Drivers
+
 Depending on your Operating System and browser of choice, the source of downloads would differ. You can find the links to download the drivers for Firefox, Chrome and Edge [link here](https://pypi.org/project/selenium/#drivers)
 
 ## II. SQL
